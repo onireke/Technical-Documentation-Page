@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+
+}
+#navbar header{
+    padding: 2rem;
+    font-size: 20px;
+
+}
+nav{
+    width: 20%;
+    height: 100%;
+
+
+}
+div.links{
+    overflow-y: auto;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+main{
+    width: 80%;
+    overflow-y: auto;
+    height: 100%;
+
+}
+@media screen and (max-width: 480px) {
+    :root{
+        font-size: 10pxd;
+    }
+  }
+  
